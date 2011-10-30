@@ -1,0 +1,54 @@
+BODY
+{
+    background-color:#d8d7d7;
+}
+            
+A:link, A:visited
+{
+    color: blue;
+    text-decoration: navy dotted underline;
+}
+A:hover
+{
+    color: navy;
+    text-decoration: underline;
+}
+
+P, LI
+{
+    font-family: Arial;
+    margin-bottom: 8px;
+}
+            
+#left
+{
+    float: left;
+    width: 340px;
+}
+
+#left IMG
+{
+    width: 320px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+#right
+{
+    float: left;
+    width: 340px;
+    margin-left: 20px;
+}
+
+#right IMG
+{
+    width: 320px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.pictures IMG
+{
+    float: left;
+}
